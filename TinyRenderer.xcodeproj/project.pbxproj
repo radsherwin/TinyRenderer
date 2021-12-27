@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3125EF36277A406F0087F6AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3125EF35277A406F0087F6AE /* main.cpp */; };
+		3125EF3E277A423F0087F6AE /* tgaimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3125EF3D277A423F0087F6AE /* tgaimage.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		3125EF32277A406F0087F6AE /* TinyRenderer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TinyRenderer; sourceTree = BUILT_PRODUCTS_DIR; };
 		3125EF35277A406F0087F6AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3125EF3C277A41FC0087F6AE /* tgaimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tgaimage.h; sourceTree = "<group>"; };
+		3125EF3D277A423F0087F6AE /* tgaimage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tgaimage.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				3125EF35277A406F0087F6AE /* main.cpp */,
+				3125EF3C277A41FC0087F6AE /* tgaimage.h */,
+				3125EF3D277A423F0087F6AE /* tgaimage.cpp */,
 			);
 			path = TinyRenderer;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3125EF3E277A423F0087F6AE /* tgaimage.cpp in Sources */,
 				3125EF36277A406F0087F6AE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
