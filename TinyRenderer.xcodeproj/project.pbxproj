@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3125EF36277A406F0087F6AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3125EF35277A406F0087F6AE /* main.cpp */; };
 		3125EF3E277A423F0087F6AE /* tgaimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3125EF3D277A423F0087F6AE /* tgaimage.cpp */; };
+		3125EF41277A49460087F6AE /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3125EF40277A49460087F6AE /* model.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,10 @@
 		3125EF35277A406F0087F6AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3125EF3C277A41FC0087F6AE /* tgaimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tgaimage.h; sourceTree = "<group>"; };
 		3125EF3D277A423F0087F6AE /* tgaimage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tgaimage.cpp; sourceTree = "<group>"; };
+		3125EF3F277A49350087F6AE /* model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		3125EF40277A49460087F6AE /* model.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = model.cpp; sourceTree = "<group>"; };
+		3125EF42277A49E10087F6AE /* geometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geometry.h; sourceTree = "<group>"; };
+		3125EF44277A4D440087F6AE /* african_head.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = african_head.obj; path = Models/african_head.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +65,13 @@
 		3125EF34277A406F0087F6AE /* TinyRenderer */ = {
 			isa = PBXGroup;
 			children = (
+				3125EF44277A4D440087F6AE /* african_head.obj */,
 				3125EF35277A406F0087F6AE /* main.cpp */,
 				3125EF3C277A41FC0087F6AE /* tgaimage.h */,
 				3125EF3D277A423F0087F6AE /* tgaimage.cpp */,
+				3125EF3F277A49350087F6AE /* model.h */,
+				3125EF40277A49460087F6AE /* model.cpp */,
+				3125EF42277A49E10087F6AE /* geometry.h */,
 			);
 			path = TinyRenderer;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			files = (
 				3125EF3E277A423F0087F6AE /* tgaimage.cpp in Sources */,
 				3125EF36277A406F0087F6AE /* main.cpp in Sources */,
+				3125EF41277A49460087F6AE /* model.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
