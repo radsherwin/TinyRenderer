@@ -145,11 +145,13 @@ int main(int argc, const char * argv[]) {
     {
         std::vector<int> face = model->face(i);
         Vec3f pts[3];
+        Vec2f uv[3];
         for(int i = 0; i < 3; i++)
         {
             pts[i] = world2screen(model->vert(face[i]));
-            triangle(pts, zBuffer, image, TGAColor(rand()%255, rand()%255, rand()%255, 255));
+            uv[i] = model->texCoords(face[i]);
         }
+        triangle(pts, zBuffer, image, TGAColor(rand()%255, rand()%255, rand()%255, 255));
     }
     
     
