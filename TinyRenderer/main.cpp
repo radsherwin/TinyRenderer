@@ -128,7 +128,7 @@ int main(int argc, const char * argv[]) {
         
     }
     
-    image.flip_vertically();
+    image.flip_vertically(); //to set origin at the bottom left corner of the image
     image.write_tga_file("output.tga");
     delete model;
     return 0;
