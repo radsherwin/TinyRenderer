@@ -47,13 +47,13 @@ struct Vec<2, T>
     T& operator[](const size_t i)
     {
         assert(i<2);
-        return i <= 0 ? x : y;
+        return i<=0 ? x : y;
     }
     
     const T& operator[](const size_t i) const
     {
         assert(i < 2);
-        return i <=0 ? x : y;
+        return i<=0 ? x : y;
     }
     
     T x,y;
@@ -69,13 +69,13 @@ struct Vec<3,T>
     T& operator[](const size_t i)
     {
         assert(i<3);
-        return i <= 0 ? x : (i==1 ? y : z);
+        return i<=0 ? x : (1==i ? y : z);
     }
     
     const T& operator[](const size_t i) const
     {
-        assert(i < 2);
-        return i <= 0 ? x : (i==1 ? y : z);
+        assert(i < 3);
+        return i<=0 ? x : (1==i ? y : z);
     }
     float norm()
     {
